@@ -1,12 +1,13 @@
-﻿using System;
-
-namespace HomeAssignment
+﻿namespace HomeAssignment
 {
+    using System;
+    using System.Collections.Generic;
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Solution.Combinations("as"));
         }
     }
 }
