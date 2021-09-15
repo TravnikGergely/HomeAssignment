@@ -1,13 +1,14 @@
 ﻿namespace HomeAssignment
 {
     using System;
-    using System.Collections.Generic;
 
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Solution.Combinations("as"));
+            Console.WriteLine("Please enter 0 to 4 DIGITS between 2 and 9!");
+            string input = Console.ReadLine();
+            Console.WriteLine(Solution.Combinations(input));
         }
     }
 }
